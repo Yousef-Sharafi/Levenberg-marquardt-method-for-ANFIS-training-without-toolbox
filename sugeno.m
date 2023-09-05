@@ -5,6 +5,7 @@ clear all;
 close all;
 
 data1=xlsread('mackey-glass.xlsx');
+
 max_data=max(data1(1,:));
 min_data=min(data1(1,:));
 % data = (data - min(data))/(max(data)-min(data));
